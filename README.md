@@ -22,7 +22,7 @@
 Чтобы начать работу с `games-board`, клонируйте репозиторий и установите зависимости:
 
 ```bash
-git clone https://your-repository-link
+git clone https://github.com/Deolys/games-board.git
 cd games-board
 npm install
 ```
