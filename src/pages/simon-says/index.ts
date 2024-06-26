@@ -1,0 +1,1 @@
+export { SimonSaysGame } from "./simon-says";
