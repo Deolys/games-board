@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnakeGame SnakeGame mounts properly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1413kmy-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-u4fbkj-MuiToolbar-root"
+    >
+      <a
+        class="css-3qnz2e"
+        href="/"
+      >
+        <img
+          alt="Games board"
+        />
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1waifce-MuiTypography-root"
+        >
+          Games board
+        </p>
+      </a>
+      <div
+        class="MuiStack-root css-1dzrg60-MuiStack-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-body1 css-1v5m6us-MuiTypography-root"
+          href="/"
+        >
+          HOME
+        </a>
+        <button
+          aria-haspopup="true"
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-17ovnxk-MuiButtonBase-root-MuiButton-root"
+          id="composition-button"
+          tabindex="0"
+          type="button"
+        >
+          Games
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
+    data-testid="game-zone"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Игра "Змейка" на React с Material-UI
+        </h6>
+      </div>
+    </header>
+    <div
+      class="MuiBox-root css-plrrfd"
+    >
+      <div
+        class="MuiBox-root css-oim5cv"
+        data-testid="snake-dot"
+        style="left: 200px; top: 200px;"
+      />
+      <div
+        class="MuiBox-root css-oim5cv"
+        style="left: 80px; top: 80px; background-color: red;"
+      />
+    </div>
+  </div>
+</div>
+`;

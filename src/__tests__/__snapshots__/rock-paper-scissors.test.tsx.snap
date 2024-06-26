@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RockPaperScissors RockPaperScissors mounts properly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1413kmy-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-u4fbkj-MuiToolbar-root"
+        >
+          <a
+            class="css-3qnz2e"
+            href="/"
+          >
+            <img
+              alt="Games board"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1waifce-MuiTypography-root"
+            >
+              Games board
+            </p>
+          </a>
+          <div
+            class="MuiStack-root css-1dzrg60-MuiStack-root"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-body1 css-1v5m6us-MuiTypography-root"
+              href="/"
+            >
+              HOME
+            </a>
+            <button
+              aria-haspopup="true"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-17ovnxk-MuiButtonBase-root-MuiButton-root"
+              id="composition-button"
+              tabindex="0"
+              type="button"
+            >
+              Games
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
+        style="padding: 20px; max-width: 500px; margin: auto;"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-149xwtl-MuiTypography-root"
+        >
+          Камень, Ножницы, Бумага
+        </h4>
+        <div
+          class="MuiBox-root css-1917ghf"
+        >
+          <div
+            class="MuiBox-root css-j7qwjs"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-ph2xsj-MuiTypography-root"
+            >
+              Ваш выбор:
+            </h5>
+            <div
+              class="MuiBox-root css-j3ycse"
+            />
+          </div>
+          <div
+            class="MuiBox-root css-j7qwjs"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-ph2xsj-MuiTypography-root"
+            >
+              Выбор ИИ:
+            </h5>
+            <div
+              class="MuiBox-root css-j3ycse"
+            />
+          </div>
+        </div>
+        <h5
+          class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-ph2xsj-MuiTypography-root"
+          style="color: red;"
+        >
+          Результат: 
+        </h5>
+        <div
+          class="MuiBox-root css-gg4vpm"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1kgxqm0-MuiTypography-root"
+          >
+            Ваш счёт: 
+            0
+          </h6>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1kgxqm0-MuiTypography-root"
+          >
+            Счёт ИИ: 
+            0
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root css-dnzamn"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+            style="margin: 0px 10px;"
+            tabindex="0"
+            type="button"
+          >
+            камень
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+            style="margin: 0px 10px;"
+            tabindex="0"
+            type="button"
+          >
+            ножницы
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+            style="margin: 0px 10px;"
+            tabindex="0"
+            type="button"
+          >
+            бумага
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1413kmy-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-u4fbkj-MuiToolbar-root"
+      >
+        <a
+          class="css-3qnz2e"
+          href="/"
+        >
+          <img
+            alt="Games board"
+          />
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1waifce-MuiTypography-root"
+          >
+            Games board
+          </p>
+        </a>
+        <div
+          class="MuiStack-root css-1dzrg60-MuiStack-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-body1 css-1v5m6us-MuiTypography-root"
+            href="/"
+          >
+            HOME
+          </a>
+          <button
+            aria-haspopup="true"
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-17ovnxk-MuiButtonBase-root-MuiButton-root"
+            id="composition-button"
+            tabindex="0"
+            type="button"
+          >
+            Games
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
+      style="padding: 20px; max-width: 500px; margin: auto;"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-149xwtl-MuiTypography-root"
+      >
+        Камень, Ножницы, Бумага
+      </h4>
+      <div
+        class="MuiBox-root css-1917ghf"
+      >
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-ph2xsj-MuiTypography-root"
+          >
+            Ваш выбор:
+          </h5>
+          <div
+            class="MuiBox-root css-j3ycse"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-ph2xsj-MuiTypography-root"
+          >
+            Выбор ИИ:
+          </h5>
+          <div
+            class="MuiBox-root css-j3ycse"
+          />
+        </div>
+      </div>
+      <h5
+        class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-ph2xsj-MuiTypography-root"
+        style="color: red;"
+      >
+        Результат: 
+      </h5>
+      <div
+        class="MuiBox-root css-gg4vpm"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1kgxqm0-MuiTypography-root"
+        >
+          Ваш счёт: 
+          0
+        </h6>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1kgxqm0-MuiTypography-root"
+        >
+          Счёт ИИ: 
+          0
+        </h6>
+      </div>
+      <div
+        class="MuiBox-root css-dnzamn"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+          style="margin: 0px 10px;"
+          tabindex="0"
+          type="button"
+        >
+          камень
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+          style="margin: 0px 10px;"
+          tabindex="0"
+          type="button"
+        >
+          ножницы
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+          style="margin: 0px 10px;"
+          tabindex="0"
+          type="button"
+        >
+          бумага
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

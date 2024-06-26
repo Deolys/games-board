@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Тестирование рендера App 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1ua5qdn-MuiContainer-root"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1413kmy-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-u4fbkj-MuiToolbar-root"
+      >
+        <a
+          class="css-3qnz2e"
+          href="/"
+        >
+          <img
+            alt="Games board"
+          />
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1waifce-MuiTypography-root"
+          >
+            Games board
+          </p>
+        </a>
+        <div
+          class="MuiStack-root css-1dzrg60-MuiStack-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-body1 css-1v5m6us-MuiTypography-root"
+            href="/"
+          >
+            HOME
+          </a>
+          <button
+            aria-haspopup="true"
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-17ovnxk-MuiButtonBase-root-MuiButton-root"
+            id="composition-button"
+            tabindex="0"
+            type="button"
+          >
+            Games
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <div
+      class="MuiBox-root css-1bd03t5"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthSm css-1n97lv-MuiContainer-root"
+      >
+        <a
+          href="/rock-paper-scissors"
+        >
+          <div
+            class="MuiBox-root css-m534zu"
+          />
+        </a>
+        <a
+          href="/snake"
+        >
+          <div
+            class="MuiBox-root css-1ymbemq"
+          />
+        </a>
+        <div
+          class="MuiBox-root css-hmtv0j"
+        >
+          <img
+            alt="Totoro"
+          />
+        </div>
+        <a
+          href="/simon-says"
+        >
+          <div
+            class="MuiBox-root css-1oqexsf"
+          />
+        </a>
+        <a
+          href="/tic-tac-toe"
+        >
+          <div
+            class="MuiBox-root css-455dee"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
